@@ -214,7 +214,7 @@ public:
 		
 		printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("0x"));
+        assert(hashGenesisBlock == uint256("e6517f4896ce1a410dfc535417b676e545fb575eb5f87062ae3e7da6321eeaa6"));
   //printf("block.nTime = %u \n", block.nTime);
      //   printf("block.nNonce = %u \n", block.nNonce);
         printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
