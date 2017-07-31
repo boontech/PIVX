@@ -135,13 +135,15 @@ public:
         genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+		
 		printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
+		
 		 //printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
 		 //printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
-
+         return;
         vSeeds.push_back(CDNSSeedData("booncoin.aws", "13.59.221.90"));     // Primary DNS Seeder from Fuzzbawls
       
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
@@ -209,6 +211,9 @@ public:
         genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
+		
+		printf("%s\n", hashGenesisBlock.ToString().c_str());
+        printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
         assert(hashGenesisBlock == uint256("0x"));
   //printf("block.nTime = %u \n", block.nTime);
      //   printf("block.nNonce = %u \n", block.nNonce);
@@ -279,6 +284,8 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 51476;
+		printf("%s\n", hashGenesisBlock.ToString().c_str());
+        printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
         assert(hashGenesisBlock == uint256("0x"));
  printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
