@@ -1,0 +1,11 @@
+[Protocol]
+exec=boondevcoin-qt '%u'
+protocol=boondevcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

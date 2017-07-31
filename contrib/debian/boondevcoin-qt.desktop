@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=boondevcoin
+Comment=boondevcoin P2P Cryptocurrency
+Comment[fr]=boondevcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=boondevcoin, eşten eşe kriptografik sanal para birimi
+Exec=boondevcoin-qt %u
+Terminal=false
+Type=Application
+Icon=boondevcoin128
+MimeType=x-scheme-handler/boondevcoin;
+Categories=Office;Finance;

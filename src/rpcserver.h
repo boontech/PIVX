@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * PIVX RPC command dispatcher.
+ * boondevcoin RPC command dispatcher.
  */
 class CRPCTable
 {

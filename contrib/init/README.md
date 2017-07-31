@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
+SystemD: boondevcoind.service
+Upstart: boondevcoind.conf
+OpenRC:  boondevcoind.openrc
+         boondevcoind.openrcconf
+CentOS:  boondevcoind.init
 
 have been made available to assist packagers in creating node packages here.
 

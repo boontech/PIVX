@@ -1,0 +1,26 @@
+[Unit]
+Description=boondevcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=boondevcoin
+Group=boondevcoin
+
+Type=forking
+PIDFile=/var/lib/boondevcoind/boondevcoind.pid
+
+ExecStart=/usr/bin/boondevcoind -daemon -pid=/var/lib/boondevcoind/boondevcoind.pid \
+          -conf=/etc/boondevcoin/boondevcoin.conf -datadir=/var/lib/boondevcoind
+
+ExecStop=-/usr/bin/boondevcoin-cli -conf=/etc/boondevcoin/boondevcoin.conf \
+         -datadir=/var/lib/boondevcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

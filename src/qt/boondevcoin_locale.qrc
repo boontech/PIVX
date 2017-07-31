@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/boondevcoin_bg.qm</file>
+        <file alias="ca">locale/boondevcoin_ca.qm</file>
+        <file alias="cs">locale/boondevcoin_cs.qm</file>
+        <file alias="da">locale/boondevcoin_da.qm</file>
+        <file alias="de">locale/boondevcoin_de.qm</file>
+        <file alias="en">locale/boondevcoin_en.qm</file>
+        <file alias="en_US">locale/boondevcoin_en_US.qm</file>
+        <file alias="es">locale/boondevcoin_es.qm</file>
+        <file alias="fi">locale/boondevcoin_fi.qm</file>
+        <file alias="fr_FR">locale/boondevcoin_fr_FR.qm</file>
+        <file alias="it">locale/boondevcoin_it.qm</file>
+        <file alias="ja">locale/boondevcoin_ja.qm</file>
+        <file alias="ko_KR">locale/boondevcoin_ko_KR.qm</file>
+        <file alias="nl">locale/boondevcoin_nl.qm</file>
+        <file alias="pl">locale/boondevcoin_pl.qm</file>
+        <file alias="pt">locale/boondevcoin_pt.qm</file>
+        <file alias="pt_BR">locale/boondevcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/boondevcoin_ro_RO.qm</file>
+        <file alias="ru">locale/boondevcoin_ru.qm</file>
+        <file alias="sk">locale/boondevcoin_sk.qm</file>
+        <file alias="sv">locale/boondevcoin_sv.qm</file>
+        <file alias="uk">locale/boondevcoin_uk.qm</file>
+        <file alias="zh_CN">locale/boondevcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/boondevcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
