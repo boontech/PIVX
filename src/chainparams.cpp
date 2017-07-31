@@ -136,8 +136,8 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
 		
-		printf("%s\n", hashGenesisBlock.ToString().c_str());
-        printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
+		//printf("%s\n", hashGenesisBlock.ToString().c_str());
+       // printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
         assert(hashGenesisBlock == uint256("e6517f4896ce1a410dfc535417b676e545fb575eb5f87062ae3e7da6321eeaa6"));
         assert(genesis.hashMerkleRoot == uint256("1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 		
@@ -212,12 +212,12 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
 		
-		printf("%s\n", hashGenesisBlock.ToString().c_str());
-        printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
+		//printf("%s\n", hashGenesisBlock.ToString().c_str());
+       // printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
         assert(hashGenesisBlock == uint256("e6517f4896ce1a410dfc535417b676e545fb575eb5f87062ae3e7da6321eeaa6"));
   //printf("block.nTime = %u \n", block.nTime);
      //   printf("block.nNonce = %u \n", block.nNonce);
-        printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
+      //  printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
         vFixedSeeds.clear();
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("booncoin.aws", "13.59.221.90"));
@@ -284,10 +284,10 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 51476;
-		printf("%s\n", hashGenesisBlock.ToString().c_str());
-        printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("0x"));
- printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
+		//printf("%s\n", hashGenesisBlock.ToString().c_str());
+       // printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
+        assert(hashGenesisBlock == uint256("cb9265ba6b1b240701c41d9a1a28cfc77bba75344882739d69624233dd4b8aa1"));
+ //printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
 
