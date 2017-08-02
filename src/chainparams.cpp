@@ -131,15 +131,15 @@ public:
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
         genesis.nTime = 1501503206;
-        genesis.nBits = 0x1e0ffff0;
+        genesis.nBits = 0x;
         genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
 		
 		//printf("%s\n", hashGenesisBlock.ToString().c_str());
        // printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("e6517f4896ce1a410dfc535417b676e545fb575eb5f87062ae3e7da6321eeaa6"));
-        assert(genesis.hashMerkleRoot == uint256("1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        assert(hashGenesisBlock == uint256("0xe6517f4896ce1a410dfc535417b676e545fb575eb5f87062ae3e7da6321eeaa6"));
+        assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 		
 		 //printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
 		 //printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
@@ -279,14 +279,14 @@ public:
         nTargetSpacing = 1 * 60;        // boondevcoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1501503206;
-        genesis.nBits = 0x207fffff;
+        genesis.nBits = 0x;
         genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 51476;
 		//printf("%s\n", hashGenesisBlock.ToString().c_str());
        // printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("cb9265ba6b1b240701c41d9a1a28cfc77bba75344882739d69624233dd4b8aa1"));
+        assert(hashGenesisBlock == uint256("0xcb9265ba6b1b240701c41d9a1a28cfc77bba75344882739d69624233dd4b8aa1"));
  //printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
