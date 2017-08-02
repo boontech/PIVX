@@ -138,7 +138,7 @@ public:
 		
 		printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("0x0d5faae833e01758f18700321dce03c232c35f9a40c7b23122fe01e478bb76681"));
+        assert(hashGenesisBlock == uint256("0xd5faae833e01758f18700321dce03c232c35f9a40c7b23122fe01e478bb76681"));
         assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 		
 		 //printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
@@ -214,7 +214,7 @@ public:
 		
 		//printf("%s\n", hashGenesisBlock.ToString().c_str());
        // printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("e6517f4896ce1a410dfc535417b676e545fb575eb5f87062ae3e7da6321eeaa6"));
+        assert(hashGenesisBlock == uint256("0xd5faae833e01758f18700321dce03c232c35f9a40c7b23122fe01e478bb76681"));
   //printf("block.nTime = %u \n", block.nTime);
      //   printf("block.nNonce = %u \n", block.nNonce);
       //  printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
@@ -286,7 +286,7 @@ public:
         nDefaultPort = 51476;
 		printf("%s\n", hashGenesisBlock.ToString().c_str());
        // printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("0x0d5faae833e01758f18700321dce03c232c35f9a40c7b23122fe01e478bb76681"));
+        assert(hashGenesisBlock == uint256("0xd5faae833e01758f18700321dce03c232c35f9a40c7b23122fe01e478bb76681"));
  //printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
