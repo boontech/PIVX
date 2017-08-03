@@ -144,7 +144,7 @@ public:
 		
 		 //printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
 		 //printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
-         return;
+         
         vSeeds.push_back(CDNSSeedData("booncoin.aws", "13.59.221.90"));     // Primary DNS Seeder from Fuzzbawls
       
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
