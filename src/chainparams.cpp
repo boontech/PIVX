@@ -131,14 +131,14 @@ public:
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
         genesis.nTime = 1501503206;
-        genesis.nBits = 0x0;
+        genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
-		
+		printf("%s\n", genesis.nNonce.ToString().c_str());
 		printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("0xd5faae833e01758f18700321dce03c232c35f9a40c7b23122fe01e478bb76681"));
+       assert(hashGenesisBlock == uint256("0xd5faae833e01758f18700321dce03c232c35f9a40c7b23122fe01e478bb76681"));
         assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 		
 		 //printf("block.GetHash = %s\n", hashGenesisBlock.ToString().c_str());
@@ -279,7 +279,7 @@ public:
         nTargetSpacing = 1 * 60;        // boondevcoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1501503206;
-        genesis.nBits = 0x0;
+        genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
