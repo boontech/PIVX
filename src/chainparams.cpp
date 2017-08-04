@@ -130,7 +130,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1501503206;
+        genesis.nTime = 1501845735;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 0;
 
@@ -208,7 +208,7 @@ public:
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1501503206;
+        genesis.nTime = 1501845735;
         genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
@@ -279,7 +279,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // boondevcoin: 1 day
         nTargetSpacing = 1 * 60;        // boondevcoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1501503206;
+        genesis.nTime = 1501845735;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 0;
 
